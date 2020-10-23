@@ -7,5 +7,8 @@ public class StringTest {
         String sql = "  update CONFERENCEROOM c set c.HOUSENO =  'oldhouseno'  where HOUSENO = 'oldhouseno'  ";
         sql = sql.replace("set","SET");//替换字符串
         System.out.println(sql);
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+        }
     }
 }

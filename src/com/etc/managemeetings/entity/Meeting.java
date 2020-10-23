@@ -62,14 +62,6 @@ public class Meeting {
     this.detailsList = detailsList;
   }
 
-  public String getCreate_peo() {
-    return create_peo;
-  }
-
-  public void setCreate_peo(String create_peo) {
-    this.create_peo = create_peo;
-  }
-
   public ConferenceRoom getConferenceRoom() {
     return conferenceRoom;
   }
@@ -131,6 +123,13 @@ public class Meeting {
     this.endtime = endtime;
   }
 
+  public String getCreate_peo() {
+    return create_peo;
+  }
+
+  public void setCreate_peo(String create_peo) {
+    this.create_peo = create_peo;
+  }
 
   public String getMeetinginfo() {
     return meetinginfo;
