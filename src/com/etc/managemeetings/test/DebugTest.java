@@ -12,5 +12,6 @@ public class DebugTest {
         map.put("name","tom");
         map.put("age","12");
         map.put("school","Tsinghua");
+        System.out.println(map.size());
     }
 }
