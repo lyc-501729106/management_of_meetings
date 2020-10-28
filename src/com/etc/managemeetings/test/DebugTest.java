@@ -8,10 +8,10 @@ import java.util.HashMap;
  */
 public class DebugTest {
     public static void main(String[] args) {
-        HashMap<String , String> map = new HashMap<>();
-        map.put("name","tom");
-        map.put("age","12");
-        map.put("school","Tsinghua");
+        HashMap<String, String> map = new HashMap<>();
+        map.put("name", "tom");
+        map.put("age", "12");
+        map.put("school", "Tsinghua");
         System.out.println(map.size());
     }
 }

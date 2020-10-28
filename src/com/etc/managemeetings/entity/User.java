@@ -107,18 +107,4 @@ public class User {
     this.email = email;
   }
 
-  @Override
-  public String toString() {
-    return "User{" +
-            "deNum=" + deNum +
-            ", account='" + account + '\'' +
-            ", pwd='" + pwd + '\'' +
-            ", name='" + name + '\'' +
-            ", phone='" + phone + '\'' +
-            ", email='" + email + '\'' +
-            ", state=" + state +
-            ", department=" + department +
-            ", meetingList=" + meetingList +
-            '}';
-  }
 }
