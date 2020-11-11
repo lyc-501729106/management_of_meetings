@@ -33,7 +33,8 @@
                             </tr>
                             <tr>
                                 <td colspan="2" class="command">
-                                    <input type="submit"  value="登录" class="clickbutton" onclick="method='get';action='LoginServlet';submit();"/>
+<%--                                    <input type="submit"  value="登录" class="clickbutton" onclick="method='get';action='LoginServlet';submit();"/>--%>
+                                    <input type="submit"  value="登录" class="clickbutton" onclick="method='get';action='login.do';submit();"/>
                                     <input type="button" value="返回" class="clickbutton" onclick="window.history.back();"/>
                                 </td>
                             </tr>

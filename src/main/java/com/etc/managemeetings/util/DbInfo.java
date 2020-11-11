@@ -21,7 +21,7 @@ public class DbInfo {
     //定义一个方法，用来获取到properties文件中的信息。
     public ConfigInfo getProperties() throws URISyntaxException, IOException {
         //找到资源
-        String path = DbInfo.class.getResource("/").toURI().getPath() + "db.properties" ;
+        String path = DbInfo.class.getResource("/").toURI().getPath() + "db.properties";
         //创建File对象
         File file = new File(path) ;
         //创建流对象

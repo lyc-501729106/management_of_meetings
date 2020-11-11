@@ -1,3 +1,4 @@
+/*
 package com.etc.managemeetings.controller;
 
 //import org.codehaus.jackson.map.ObjectMapper;
@@ -40,3 +41,4 @@ public class JudeServ extends HttpServlet {
         om.writeValue(resp.getWriter(), map);
     }
 }
+*/

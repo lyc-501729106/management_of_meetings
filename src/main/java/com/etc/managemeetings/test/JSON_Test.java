@@ -1,3 +1,4 @@
+/*
 package com.etc.managemeetings.test;
 
 import com.etc.managemeetings.entity.User;
@@ -30,3 +31,4 @@ public class JSON_Test {
         System.out.println(jsonObject.toString());
     }
 }
+*/
